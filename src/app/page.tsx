@@ -11,7 +11,7 @@ export default function Home() {
         <section className="space-y-6 fade-up">
           <p className="uppercase tracking-widest text-xs text-neutral-400">About me</p>
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            Hi, I'm <span className="text-rose-400">Rajanya</span>
+            Hi, I&apos;m <span className="text-rose-400">Rajanya</span>
             <br />
             <span className="text-rose-400">Purohit</span>
           </h1>
@@ -152,6 +152,7 @@ function ProjectCard({ title, description, images, href }: ProjectCardProps) {
         <div ref={containerRef} className="flex w-full h-full transition-transform duration-300 ease-out" style={{ transform: "translateX(0%)" }}>
           {images.map((src) => (
             <div key={src} className="min-w-full grid place-items-center bg-neutral-950">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={src} alt="Project image" className="opacity-90" />
             </div>
           ))}
