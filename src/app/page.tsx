@@ -47,7 +47,7 @@ export default function Home() {
                 "Figma",
                 "React",
                 "MySQL",
-                "Git",
+                "Git"
               ].map((skill) => (
                 <span
                   key={skill}
@@ -100,22 +100,22 @@ export default function Home() {
             title="ESWY"
             href="https://eswy.in"
             description="Conceived and led the development of a narrative-driven browser game inspired by the ESWY music video."
-            images={["/portfolio/pics/1eswy.png","/portfolio/pics/2eswy.png","/portfolio/pics/3eswy.png"]}
+            images={["/pics/1eswy.png","/pics/2eswy.png","/pics/3eswy.png"]}
           />
           <ProjectCard
             title="Aviate CX"
             description="Designing and developing a Customer Relationship Management (CRM) system and a chatbot leveraging RAG pipelines."
-            images={["/portfolio/pics/1aviate.png","/portfolio/pics/2aviate.png","/portfolio/pics/3aviate.png"]}
+            images={["/pics/1aviate.png","/pics/2aviate.png","/pics/3aviate.png"]}
           />
           <ProjectCard
             title="Techomotion"
             description="Inventory management system for the company Techolution."
-            images={["/portfolio/pics/1techomotion.png","/portfolio/pics/2techomotion.png","/portfolio/pics/3techomotion.png"]}
+            images={["/pics/1techomotion.png","/pics/2techomotion.png","/pics/3techomotion.png"]}
           />
           <ProjectCard
             title="Stratabot"
             description="A questionnaire connected with API calls to a chatbot for the company Everse.ai."
-            images={["/portfolio/pics/1stratabot.png","/portfolio/pics/3stratabot.png"]}
+            images={["/pics/1stratabot.png","/pics/3stratabot.png"]}
           />
         </div>
       </section>
